@@ -13,6 +13,10 @@ public class Demo {
             Person bob = new Person("Bob", "M", 35);
             System.out.println(bob);
 
+
+
+         Teacher mrJava = new Teacher("John Java", 34, "M", "Computer Sci", 90000);
+                 System.out.println(mrJava);
         }
 
     }

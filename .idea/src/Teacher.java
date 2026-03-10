@@ -20,7 +20,30 @@ public class Teacher extends Person{
 
     // getter
 
+    public String getSubject(){
+        return this.subject;
+    }
+
+    public double getSalary(){
+        return this.salary;
+    }
+
+    // setters
+
+    public void setSubject(String subject){
+       this.subject = subject;
+
+    }
+
+    public void setSalary(double salary){
+        this.salary = salary;
+
+    }
 
 
+    public String toString() {
+        return super.toString() + " , subject" + subject + ", salary " + salary;
 
+
+    }
 }
