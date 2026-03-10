@@ -1,4 +1,4 @@
-public class demo {
+public class Demo {
 
 
 //    student test
@@ -7,20 +7,15 @@ public class demo {
 
         Student joe = new Student("Joe", 55, "M", "65S46", 3.0);
         System.out.println(joe);
-    }
 
-
-}
 //    person test
 
+            Person bob = new Person("Bob", "M", 35);
+            System.out.println(bob);
 
-static void main(String[] args) {
-    Person bob = new Person("Bob", "M", 35);
-    System.out.println(bob);
+        }
 
-}
-
-
+    }
 
 
 
