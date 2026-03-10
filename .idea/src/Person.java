@@ -27,10 +27,7 @@ public class Person {
 
     // practicing tests here
 
-    static void main(String[] args) {
-        Person bob = new Person("Bob", "M", 35);
-        System.out.println(bob);
-    }
+
 
 
 }
