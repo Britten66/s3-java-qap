@@ -1,3 +1,5 @@
+package problem1;
+
 public class Student extends Person {
 
     protected String myIdNum;
