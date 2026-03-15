@@ -8,12 +8,15 @@ public abstract class Shape {
 
     protected String name;
 
-    public abstract double getArea();
-    public abstract double getPerimeter();
+
+    // renamed these as triangle was calling on something different and its easier to change this class
+
+    public abstract double area();
+    public abstract double perimeter();
 
     @Override
     public String toString() {
         // added tthis is here to match format
-        return "Shape: " + name + ", Area: " + getArea() + ", Perimeter: " + getPerimeter();
+        return "Shape: " + name + ", Area: " + area() + ", Perimeter: " + perimeter();
     }
 }
