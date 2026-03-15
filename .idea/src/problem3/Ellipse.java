@@ -29,12 +29,12 @@ public class Ellipse extends Shape {
     }
 
     @Override
-    public double getArea() {
+    public double area() {
         return Math.PI * a * b;
     }
 
     @Override
-    public double getPerimeter(){
+    public double perimeter(){
         return Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
     }
 
