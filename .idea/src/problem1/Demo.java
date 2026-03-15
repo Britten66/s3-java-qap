@@ -1,3 +1,5 @@
+package problem1;
+
 public class Demo {
 
 
@@ -17,6 +19,13 @@ public class Demo {
 
          Teacher mrJava = new Teacher("John Java", 34, "M", "Computer Sci", 90000);
                  System.out.println(mrJava);
+
+
+
+              CollegeStudent ima = new CollegeStudent("Ima Frosh", 18, "F", "UCB123", 4.0, 1, "English");
+                System.out.println(ima);
+
+
         }
 
     }
